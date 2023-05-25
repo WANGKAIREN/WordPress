@@ -1587,7 +1587,7 @@ function wp_using_themes() {
 	 *
 	 * @param bool $wp_using_themes Whether the current request should use themes.
 	 */
-	return apply_filters( 'wp_using_themes', defined( 'WP_USE_THEMES' ) && WP_USE_THEMES );
+	return apply_filters( 'wp_using_themes', defined( 'WP_USE_THEMES' ) && WP_USE_THEMES ); /** add_filter( 'wp_using_themes' */ /** {@link my-test/php/test_defined.php } */
 }
 
 /**
