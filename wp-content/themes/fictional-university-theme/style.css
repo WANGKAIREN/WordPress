@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Fictional University
+Theme URI: https://wordpress.org/themes/twentytwentyone/
+Author: WANGKairen
+Author URI: https://wordpress.org/
+Description: This is out amazing custom theme.
+Requires at least: 5.3
+Tested up to: 6.2
+Requires PHP: 5.6
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentyone
+Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+Twenty Twenty-One WordPress Theme, (C) 2020 WordPress.org
+Twenty Twenty-One is distributed under the terms of the GNU GPL.
+*/
+
+/*
+1.
+    Theme Folder: fictional-university-theme 主题文件夹，默认主题名称
+    index.php 主题 默认 首页文件 This is out amazing custom theme.
+    style.css 样式文件
+    style.css 还有另一个职责 在 comment 中提供 Theme Details 主题详情，主题的 Essential Information
+        Theme Name: 替换 默认主题名称 的 主题别名
+        主题文件夹 已经命名了 主题名称，为什么还要在 主题详情中 命名 主题名称，是因为主题文件夹 由于命名规范缘故 不建议使用大写和空格 fictional-university-theme，主题详情可以使用大写和空格 Fictional University
+    screenshot.png screenshot 屏幕截图 photograph 照片 preview image 预览图片 理想大小 宽 1200px 高 900px
+
+2.
+    Activate the theme.
+
+3.
+    To view the front end of our Web site.
+
+4.
+    So remember, this is what we typed out in our theme's index dot PHP file.
+
+5.
+    bloginfo('name'); 博客信息 网站标题 Site Title
+    bloginfo('description'); 博客信息 副标题 Tagline
+6.
+    $names = array('name1', 'name2', 'name3');
+7. loop
+    while(true){echo "<li>$count</li>";}
+ */
+
+body {
+    color: orangered;
+}
