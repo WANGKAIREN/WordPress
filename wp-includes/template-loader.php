@@ -10,7 +10,7 @@ if ( wp_using_themes() ) {
 	 *
 	 * @since 1.5.0
 	 */
-	do_action( 'template_redirect' );
+	do_action( 'template_redirect' ); /** {@link my-test/wp/function/test_do_action.php} */
 }
 
 /**
@@ -78,7 +78,7 @@ if ( wp_using_themes() ) {
 	// Loop through each of the template conditionals, and find the appropriate template file.
 	foreach ( $tag_templates as $tag => $template_getter ) {
 		if ( call_user_func( $tag ) ) {
-			$template = call_user_func( $template_getter );
+			$template = call_user_func( $template_getter ); /** e.g.{@link my-test/wp/function/test_get_home_template.php} */
 		}
 
 		if ( $template ) {
