@@ -2,6 +2,8 @@
 /**
  * Template canvas file to render the current 'wp_template'.
  *
+ * {@link my-test/wp/php/test_template-canvas.php}
+ *
  * @package WordPress
  */
 

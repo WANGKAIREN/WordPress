@@ -223,8 +223,8 @@ function _block_template_render_title_tag() {
  *
  * @return string Block template markup.
  */
-function get_the_block_template_html() {
-	global $_wp_current_template_content;
+function get_the_block_template_html() { /** {@link my-test/wp/function/test_get_the_block_template_html.php} */
+	global $_wp_current_template_content; /** {@link my-test/wp/global_variables/test_wp_current_template_content.php} */
 	global $wp_embed;
 
 	if ( ! $_wp_current_template_content ) {
